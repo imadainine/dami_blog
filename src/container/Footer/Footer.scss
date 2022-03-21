@@ -3,10 +3,14 @@
 
 .app__footer-section {
     width: 100%;
-    padding: 20px 40px;
+    padding: 2rem 4rem;
     background-color: #221e1f;
     border-top-left-radius: 30px;
 
+    @media screen and (max-width: 540px) {
+        padding: 2rem 3rem;
+    }
+    
     p {
         font-size: 14px;
         color: #fff;
